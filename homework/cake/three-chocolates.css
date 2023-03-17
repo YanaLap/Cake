@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script&display=swap');
+
+html {
+   margin: 30px 100px;
+   background: #f8f8f8;
+   color: #484343;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+body {
+   margin: 0;
+}
+
+.come-back-home {
+   cursor: pointer;
+   text-decoration: none;
+   color: black;
+   display: flex;
+   justify-content: flex-start;
+   font-size: 18px;
+}
+
+.header-logo {
+   width: 30px;
+}
+
+.text-logo {
+   display: flex;
+   align-items: center;
+   margin-left: 10px;
+   font-family: 'Caveat', cursive;
+}
+
+.menu-nav {
+   list-style-type: none;
+}
+
+.nav-links {
+   color: brown;
+   font-size: 17px;
+   font-style: italic;
+   text-decoration: none;
+   font-weight: 600;
+}
+
+.nav-links:hover {
+   color: blue;
+}
+
+main {
+   width: 1100px;
+   margin: auto;
+}
+
+.product {
+   text-align: center;
+}
+
+.chocolates {
+
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.cake-photo {
+   height: 500px;
+   border-radius: 15px;
+   outline: 2px solid #a7a1a1;
+   margin: 0 0 15px;
+}
+
+.cake-photo:hover {
+   outline: none;
+}
+
+.product {
+   text-align: center;
+}
+
+.headlines {
+   font-size: 18px;
+   font-weight: 400;
+   background-color: #eaeaea;
+}
+
+.best-before-date {
+   font-size: 14px;
+   font-style: italic;
+
+}
+
+p:first-letter {
+   font-family: 'Oswald', sans-serif;
+   font-size: 18px;
+}
+
+.product-description {
+
+   line-height: 24px;
+   text-align: left;
+}
+
+.decor {
+   color: #707070;
+   font-size: 14px;
+   font-style: italic;
+   line-height: 16px;
+}
+
+.dessert-ingredients,
+.allergens {
+   padding: 0;
+   font-size: 15px;
+
+   font-style: oblique;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: 300;
+}
+
+.ingredients {
+   list-style-type: none;
+}
+
+.fa-solid {
+   color: #92567b;
+   margin-right: 10px;
+}
+
+.container-cake-information {
+   font-weight: 600;
+   margin: 0 0 10px 0;
+}
+
+.cake-information {
+   font-weight: 400;
+}
+
+table {
+   width: 45%;
+   height: 200px;
+   border: 1px solid grey;
+   border-collapse: collapse;
+   text-align: center;
+}
+
+td {
+   border: 1px solid grey;
+   padding: auto;
+}
+
+.table-price {
+   display: flex;
+   justify-content: center;
+}
+
+.header-price {
+   margin: 0 0 10px 0;
+   font-weight: 600;
+}
+
+.weight {
+   height: 70px;
+   font-weight: 600;
+}
+
+.price-currency {
+   font-weight: 600;
+}
+
+.decor-information {
+   font-style: italic;
+   font-size: 14px;
+}
+
+footer {
+   font-size: 14px;
+   margin: 40px 0 0;
+}
+
+.rights-reserved {
+   display: flex;
+   justify-content: center;
+}

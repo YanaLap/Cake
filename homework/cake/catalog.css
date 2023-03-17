@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script&display=swap');
+
+html {
+   margin: 30px 100px;
+   font-size: 18px;
+   background: #f8f8f8;
+}
+
+.come-back-home {
+   cursor: pointer;
+   text-decoration: none;
+   color: black;
+   display: flex;
+   justify-content: flex-start;
+   font-size: 18px;
+}
+
+.header-logo {
+   width: 30px;
+}
+
+.text-logo {
+   display: flex;
+   align-items: center;
+   margin-left: 10px;
+   font-family: 'Caveat', cursive;
+}
+
+.menu-nav {
+   list-style-type: none;
+}
+
+.nav-links {
+   color: brown;
+   font-size: 17px;
+   font-style: italic;
+   text-decoration: none;
+   font-weight: 600;
+}
+
+.nav-links:hover {
+   color: blue;
+}
+
+.container-catalog-cake {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: nowrap;
+}
+
+.card-cake {
+   display: flex;
+   flex-direction: column;
+   width: 280px;
+}
+
+.card-cake-photo {
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 295px;
+   margin: 0 0 15px 0;
+}
+
+.product {
+   font-size: 20px;
+   font-weight: 550;
+   text-align: center;
+   margin: 0 0 10px 0;
+}
+
+.cheesecake {
+   background-image: url(img/cheesecake.jpg);
+}
+
+.button-cake {
+   cursor: pointer;
+}
+
+.cake-photo {
+   background-image: url(img/cake.jpg);
+   background-position: bottom;
+}
+
+.three-chocolates {
+   background-image: url(img/three_chocolates.jpg);
+}
+
+.gingerbread {
+   background-image: url(img/gingerbread.jpg);
+}
+
+
+img+a {
+   margin: 15px 0 0;
+}
+
+
+
+footer {
+   font-size: 14px;
+   margin: 40px 0 0;
+}
+
+.rights-reserved {
+   display: flex;
+   justify-content: center;
+}
