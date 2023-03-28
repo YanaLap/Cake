@@ -1,15 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script&display=swap');
 
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
 html {
-   margin: 30px 100px;
-   background: #f8f8f8;
-   color: #484343;
+   margin: 0px 100px;
    font-size: 16px;
-   font-weight: 400;
+   background: #f8f8f8;
+   scroll-behavior: smooth;
 }
 
 body {
-   margin: 0;
+   overflow: auto;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+   width: 0;
+   height: 0;
+}
+
+.container {
+   max-width: 1400px;
+   margin: auto;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 80px;
+   background-image: url(./img/1632965556_21-mykaleidoscope-ru-p-kofe-pirozhnoe-tsveti-krasivo-foto-23.jpg);
+   background-size: cover;
+   background-position: bottom;
+   width: 100%;
 }
 
 .come-back-home {
@@ -18,11 +46,12 @@ body {
    color: black;
    display: flex;
    justify-content: flex-start;
-   font-size: 18px;
+   font-size: 20px;
 }
 
 .header-logo {
    width: 30px;
+   margin-left: 25px;
 }
 
 .text-logo {
@@ -34,6 +63,9 @@ body {
 
 .menu-nav {
    list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+   width: 25%;
 }
 
 .nav-links {
@@ -42,6 +74,24 @@ body {
    font-style: italic;
    text-decoration: none;
    font-weight: 600;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-home {
+   color: brown;
+   font-size: 17px;
+   font-style: italic;
+   text-decoration: none;
+   font-weight: 600;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-links:hover {
+   color: blue;
+}
+
+.hr-header {
+   margin-top: 15px;
 }
 
 .nav-links:hover {
@@ -55,13 +105,12 @@ main {
 
 .product {
    text-align: center;
+   margin: 25px 0;
 }
 
 .chocolates {
-
    display: flex;
    justify-content: space-between;
-
 }
 
 .cake-photo {
@@ -83,12 +132,14 @@ main {
    font-size: 18px;
    font-weight: 400;
    background-color: #eaeaea;
+   margin: 20px 0;
+   color: #000;
 }
 
 .best-before-date {
    font-size: 14px;
    font-style: italic;
-
+   margin: 10px 0
 }
 
 p:first-letter {
@@ -97,9 +148,28 @@ p:first-letter {
 }
 
 .product-description {
-
    line-height: 24px;
    text-align: left;
+   margin: 20px 0;
+}
+
+.buy-button {
+   border-radius: 5px;
+   width: 70px;
+   height: 25px;
+   background: #eecdcd;
+   border: 1px solid #eecdcd;
+   cursor: pointer;
+}
+
+.buy-button:hover {
+   background: #e6b7b7;
+   border: 1px solid #e6b7b7;
+   box-shadow: 1px 1px 2px rgb(228, 205, 187), 0 0 1em rgb(214, 232, 180), 0 0 0.2em rgb(88, 99, 87);
+}
+
+.buy-button:active {
+   background: #dddd43;
 }
 
 .decor {
@@ -113,7 +183,7 @@ p:first-letter {
 .allergens {
    padding: 0;
    font-size: 15px;
-
+   margin-top: 15px;
    font-style: oblique;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-weight: 300;
@@ -172,14 +242,20 @@ td {
 .decor-information {
    font-style: italic;
    font-size: 14px;
+   margin-top: 15px;
 }
 
 footer {
    font-size: 14px;
    margin: 40px 0 0;
+   font-family: 'Times New Roman', Times, serif;
+   background-color: rgb(251, 243, 249);
 }
 
 .rights-reserved {
    display: flex;
-   justify-content: center;
+   justify-content: end;
+   align-items: center;
+   height: 50px;
+   padding: 0 15px;
 }

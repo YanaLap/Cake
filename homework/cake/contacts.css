@@ -1,9 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script&display=swap');
 
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Times New Roman', Times, serif;
+}
+
 html {
-   margin: 30px 100px;
-   font-size: 16px;
+   margin: 0px 100px;
+   font-size: 21px;
    background: #f8f8f8;
+   font-family: 'Caveat', cursive;
+   scroll-behavior: smooth;
+}
+
+body {
+   overflow: auto;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+   width: 0;
+   height: 0;
+}
+
+.container {
+   max-width: 1400px;
+   margin: auto;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 80px;
+   background-image: url(./img/1632965556_21-mykaleidoscope-ru-p-kofe-pirozhnoe-tsveti-krasivo-foto-23.jpg);
+   background-size: cover;
+   background-position: bottom;
+   width: 100%;
 }
 
 .come-back-home {
@@ -12,11 +48,12 @@ html {
    color: black;
    display: flex;
    justify-content: flex-start;
-   font-size: 18px;
+   font-size: 20px;
 }
 
 .header-logo {
    width: 30px;
+   margin-left: 25px;
 }
 
 .text-logo {
@@ -28,6 +65,9 @@ html {
 
 .menu-nav {
    list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+   width: 25%;
 }
 
 .nav-links {
@@ -36,10 +76,30 @@ html {
    font-style: italic;
    text-decoration: none;
    font-weight: 600;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-home {
+   color: brown;
+   font-size: 17px;
+   font-style: italic;
+   text-decoration: none;
+   font-weight: 600;
+   font-family: 'Times New Roman', Times, serif;
 }
 
 .nav-links:hover {
    color: blue;
+}
+
+.hr-header {
+   margin-top: 15px;
+}
+
+.write-me {
+   font-family: 'Times New Roman', Times, serif;
+   margin-bottom: 30px;
+   margin-top: 30px;
 }
 
 .contact-form {
@@ -55,7 +115,8 @@ html {
    font-family: 'Times New Roman', Times, serif;
 }
 
-.contacts:focus {
+.contact {
+   margin-bottom: 20px;
    text-transform: capitalize;
 }
 
@@ -99,6 +160,7 @@ html {
 
 .container-options {
    margin: 0 0 15px 0;
+   font-size: 18px;
 }
 
 .options {
@@ -110,6 +172,7 @@ html {
    font-weight: 800;
    display: flex;
    flex-direction: column;
+   font-size: 18px;
 }
 
 .link-to-social-networks {
@@ -118,21 +181,29 @@ html {
    padding: 20px 0 0 0;
 }
 
+.link-to-social-networks:first-of-type {
+   padding: 0;
+}
+
 .link-to-social-networks:hover {
    color: blue;
 }
 
 .link-instagram {
-   padding: 70px 0 0 0;
+   margin: 20px 0 0 0;
 }
-
 
 footer {
    font-size: 14px;
    margin: 40px 0 0;
+   font-family: 'Times New Roman', Times, serif;
+   background-color: rgb(251, 243, 249);
 }
 
 .rights-reserved {
    display: flex;
-   justify-content: center;
+   justify-content: end;
+   align-items: center;
+   height: 50px;
+   padding: 0 15px;
 }
