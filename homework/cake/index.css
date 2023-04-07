@@ -12,12 +12,14 @@ html {
    background: #f8f8f8;
    font-family: 'Caveat', cursive;
    scroll-behavior: smooth;
+   height: 100%;
 }
 
 body {
    overflow: auto;
    -ms-overflow-style: none;
    scrollbar-width: none;
+   height: 100%;
 }
 
 body::-webkit-scrollbar {
@@ -28,6 +30,9 @@ body::-webkit-scrollbar {
 .container {
    max-width: 1400px;
    margin: auto;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
 }
 
 .header {
@@ -42,7 +47,6 @@ body::-webkit-scrollbar {
 }
 
 .come-back-home {
-   cursor: pointer;
    text-decoration: none;
    color: black;
    display: flex;
@@ -93,7 +97,9 @@ body::-webkit-scrollbar {
 .hr-header{
    margin-top: 15px;
 }
-
+main{
+   flex-grow: 1;
+}
 #home {
    font-family: 'Times New Roman', Times, serif;
    margin-bottom: 30px;

@@ -11,12 +11,15 @@ html {
    font-size: 16x;
    background: #f8f8f8;
    scroll-behavior: smooth;
+   height: 100%;
+   height: 100%;
 }
 
 body {
    overflow: auto;
    -ms-overflow-style: none;
    scrollbar-width: none;
+   height: 100%;
 }
 
 body::-webkit-scrollbar {
@@ -27,6 +30,8 @@ body::-webkit-scrollbar {
 .container {
    max-width: 1400px;
    margin: auto;
+   display: flex;
+   flex-direction: column;
 }
 
 .header {
@@ -37,7 +42,7 @@ body::-webkit-scrollbar {
    background-image: url(./img/1632965556_21-mykaleidoscope-ru-p-kofe-pirozhnoe-tsveti-krasivo-foto-23.jpg);
    background-size: cover;
     background-position: bottom;
-    width: 100%;
+    width: 100%; 
 }
 
 .come-back-home {
@@ -88,11 +93,13 @@ body::-webkit-scrollbar {
 .nav-links:hover {
    color: blue;
 }
+
 .hr-header{
    margin-top: 15px;
 }
 main {
    margin: auto;
+   flex-grow: 1;
 }
 
 .product {
@@ -196,7 +203,7 @@ p:first-letter {
    font-weight: 400;
 }
 
-table {
+.table {
    width: 40%;
    height: 200px;
    border: 1px solid grey;
@@ -204,7 +211,7 @@ table {
    text-align: center;
 }
 
-td {
+.td {
    border: 1px solid grey;
    padding: auto;
 }
@@ -236,7 +243,7 @@ td {
    margin-top: 15px;
 }
 
-footer {
+.footer {
    font-size: 14px;
    margin: 40px 0 0;
    font-family: 'Times New Roman', Times, serif;
