@@ -1,3 +1,3 @@
 # test-step
 
-https://yanalap.github.io/homework/cake/index.html
+https://yanalap.github.io/Cake/homework/cake/index.html
