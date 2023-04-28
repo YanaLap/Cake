@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   margin: 0px 100px;
+   font-size: 16x;
+   background: #f8f8f8;
+   scroll-behavior: smooth;
+   height: 100%;
+   height: 100%;
+}
+
+body {
+   overflow: auto;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+   height: 100%;
+}
+
+body::-webkit-scrollbar {
+   width: 0;
+   height: 0;
+}
+
+.container {
+   max-width: 1400px;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 80px;
+   background-image: url(./img/1632965556_21-mykaleidoscope-ru-p-kofe-pirozhnoe-tsveti-krasivo-foto-23.jpg);
+   background-size: cover;
+    background-position: bottom;
+    width: 100%; 
+}
+
+.come-back-home {
+   cursor: pointer;
+   text-decoration: none;
+   color: black;
+   display: flex;
+   justify-content: flex-start;
+   font-size: 20px;
+}
+
+.header-logo {
+   width: 30px;
+   margin-left: 25px;
+}
+
+.text-logo {
+   display: flex;
+   align-items: center;
+   margin-left: 10px;
+   font-family: 'Caveat', cursive;
+}
+
+.menu-nav {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+   width: 25%;
+}
+
+.nav-links {
+   color: brown;
+   font-size: 17px;
+   font-style: italic;
+   text-decoration: none;
+   font-weight: 600;
+   font-family: 'Times New Roman', Times, serif;
+}
+.nav-home{
+   color: brown;
+   font-size: 17px;
+   font-style: italic;
+   text-decoration: none;
+   font-weight: 600;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-links:hover {
+   color: blue;
+}
+
+.hr-header{
+   margin-top: 15px;
+}
+main {
+   margin: auto;
+   flex-grow: 1;
+}
+
+.product {
+   text-align: center;
+   margin: 25px 0;
+}
+
+.container-cake-photo {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 0 15px 0;
+}
+
+.cake-photo {
+   width: 500px;
+   border-radius: 15px;
+   outline: 2px solid #a7a1a1;
+}
+
+.cake-photo:hover {
+   outline: none;
+}
+
+.product {
+   text-align: center;
+}
+
+.content {
+   padding-left: 60px;
+}
+
+.decor {
+   color: #707070;
+   font-size: 14px;
+   font-style: italic;
+   line-height: 16px;
+}
+
+.headlines {
+   font-size: 18px;
+   font-weight: 400;
+   background-color: #eaeaea;
+   margin: 20px 0;
+  color: #000;
+}
+
+p:first-letter {
+   font-family: 'Oswald', sans-serif;
+   font-size: 18px;
+}
+
+.buy-button {
+   border-radius: 5px;
+   width: 70px;
+   height: 25px;
+   background: #eecdcd;
+   border: 1px solid #eecdcd;
+   cursor: pointer;
+}
+.buy-button:hover{
+   background: #e6b7b7;
+   border: 1px solid #e6b7b7;
+   box-shadow: 1px 1px 2px rgb(228, 205, 187), 0 0 1em rgb(214, 232, 180), 0 0 0.2em rgb(88, 99, 87);
+}
+.buy-button:active{
+   background: #dddd43;
+}
+
+.product-description {
+   line-height: 24px;
+   text-align: left;
+   margin: 20px 0;
+}
+
+.dessert-ingredients,
+.allergens {
+   padding: 0;
+   font-size: 15px;
+   font-style: oblique;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: 300;
+   margin-top: 15px;
+}
+
+.ingredients {
+   list-style-type: none;
+}
+
+.fa-solid {
+   color: #92567b;
+   margin-right: 10px;
+}
+
+.container-cake-information {
+   font-weight: 600;
+   margin: 0 0 10px 0;
+}
+
+.cake-information {
+   font-weight: 400;
+}
+
+.table {
+   width: 40%;
+   height: 200px;
+   border: 1px solid grey;
+   border-collapse: collapse;
+   text-align: center;
+}
+
+.td {
+   border: 1px solid grey;
+   padding: auto;
+}
+
+.table-price {
+   display: flex;
+   justify-content: center;
+}
+
+.header-price {
+   margin: 0 0 10px 0;
+   font-weight: 600;
+
+}
+
+.weight {
+   height: 70px;
+   font-weight: 600;
+}
+
+.price-currency {
+   font-weight: 600;
+}
+
+.decor-information {
+   font-style: italic;
+   font-weight: 400;
+   font-size: 14px;
+   margin-top: 15px;
+}
+
+.footer {
+   font-size: 14px;
+   margin: 40px 0 0;
+   font-family: 'Times New Roman', Times, serif;
+   background-color: rgb(251, 243, 249);
+}
+
+.rights-reserved {
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   height: 50px;
+   padding: 0 15px;
+}

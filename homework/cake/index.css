@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   margin: 0px 100px;
+   font-size: 21px;
+   background: #f8f8f8;
+   font-family: 'Caveat', cursive;
+   scroll-behavior: smooth;
+   height: 100%;
+}
+
+body {
+   overflow: auto;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+   height: 100%;
+}
+
+body::-webkit-scrollbar {
+   width: 0;
+   height: 0;
+}
+
+.container {
+   max-width: 1400px;
+   margin: auto;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 80px;
+   background-image: url(./img/1632965556_21-mykaleidoscope-ru-p-kofe-pirozhnoe-tsveti-krasivo-foto-23.jpg);
+   background-size: cover;
+    background-position: bottom;
+    width: 100%;
+}
+
+.come-back-home {
+   text-decoration: none;
+   color: black;
+   display: flex;
+   justify-content: flex-start;
+   font-size: 20px;
+}
+
+.header-logo {
+   width: 30px;
+   margin-left: 25px;
+}
+
+.text-logo {
+   display: flex;
+   align-items: center;
+   margin-left: 10px;
+}
+
+.menu-nav {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+   width: 25%;
+}
+
+.nav-links {
+   color: brown;
+   font-size: 17px;
+   font-style: italic;
+   text-decoration: none;
+   font-weight: 600;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-home{
+   color: brown;
+   font-size: 17px;
+   font-style: italic;
+   text-decoration: none;
+   font-weight: 600;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-links:hover {
+   color: blue;
+}
+
+.hr-header{
+   margin-top: 15px;
+}
+main{
+   flex-grow: 1;
+}
+#home {
+   font-family: 'Times New Roman', Times, serif;
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+
+.about-my-self {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.my-foto {
+   width: 300px;
+   height: 449px;
+ 
+
+}
+
+.me-info:first-of-type {
+   padding-top: 0;
+}
+
+.me-info {
+   padding-top: 12px;
+}
+
+.about-me {
+   padding: 0 0 0 80px;
+    display: flex;
+   flex-direction: column;
+}
+
+.list-of-goods {
+   margin-top: 40px;
+}
+
+footer {
+   font-size: 14px;
+   margin: 40px 0 0;
+   font-family: 'Times New Roman', Times, serif;
+   background-color: rgb(251, 243, 249);
+}
+
+.rights-reserved {
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   height: 50px;
+   padding: 0 15px;
+}
